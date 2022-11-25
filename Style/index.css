@@ -1,0 +1,222 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+:root{
+  background-color: white;
+}
+
+/*navigation style start here*/
+nav{
+ display: none; 
+ background-color: #264653;
+ height: 100vh;
+ width: 100%;
+ left: 0px;
+ z-index: 100;
+ position: relative;
+}
+
+nav:hover{
+  cursor: pointer;
+}
+
+nav ul{
+  padding-top: 50px;
+}
+
+nav ul a{
+ text-decoration: none;
+ color:white;
+ display: block;
+ line-height: 3;
+ font-weight: 300;
+ font-size: 20px;
+ padding: 0px;
+}
+
+nav ul a:hover{
+  text-decoration: underline;
+}
+/*Hamburger-menu*/
+#menu-checkbox:checked ~ nav{
+  display: block;
+}
+#menu-checkbox:checked ~ .hamburger-icon{
+  display: none;
+}
+#menu-checkbox{
+  display: none;
+}
+
+.hamburger-icon{
+  color: white;
+  float: right;
+  padding: 50px;
+}
+.hamburger-icon:hover{
+  color: rgb(43, 196, 43);
+}
+.ul-col{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+.closing-nav{
+  margin-right: 40px;
+  margin-top: 10px;
+  z-index: 100;
+}
+.closing-nav:hover{
+  color: rgb(141, 48, 48);
+}
+
+/*header style here*/
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/first-page-header.jpg);
+  background-color: #49c3ab;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+ 
+ 
+}
+.header-logo{
+  display: flex;
+  flex-direction: column;
+  top: 20%;
+  left:5%;
+  position: absolute;
+}
+.header-logo img{
+  width: 120px;
+  height: 120px;
+}
+.header-logo h1{
+  color: white;
+  max-width: 200px;
+  font-weight: 200;
+  
+}
+/*main-style-start-here*/
+.main-top-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px 20px;
+}
+.section-title{
+display: flex;
+flex-direction: row;
+justify-content:flex-start;
+margin: 20px;
+font-size: 20px;
+font-weight: 500;
+}
+/*cards design-start-here*/
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  
+ 
+}
+.card-container1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #E76F51;
+  color: white;
+  max-width: 450px;
+  max-height: 450px;
+  font-weight: 300;
+  
+}
+.card-container2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #2A9D8F;
+  color: white;
+  max-width: 450px;
+  max-height: 450px;
+  font-weight: 300;
+}
+.card-container3{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #F4A261;
+  color: white;
+  max-width: 450px;
+  max-height: 450px;
+  font-weight: 300;
+
+}
+
+
+.card-img1{
+ max-width: 450px;
+ height: 150px;
+ background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/card-1-main-page.jpg);
+ background-repeat: no-repeat;
+ background-size: cover; 
+}
+.card-img2{
+  max-width: 450px;
+  height: 150px;
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/card-2-main-page.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .card-img3{
+  max-width: 450px;
+  height: 150px;
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/card-3-main-page.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ }
+ 
+.cards-line{
+  margin: auto;
+  width: 95%;
+
+  border: 1px solid black;
+}
+.card-items{
+margin:10px 10px;
+
+
+  
+}
+.card-title, .card-more{
+  color: black;
+}
+.card-more{
+  text-decoration: underline;
+  line-height: 2;
+}
+
+/*Event-card-style
+********************
+********************
+********************
+******************** */
+.event-card{
+  background-color: #F5EBE0;
+  color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.event-card-holder{
+  max-width: 450px;
+}
