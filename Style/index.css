@@ -93,8 +93,8 @@ header{
   position: absolute;
 }
 .header-logo img{
-  width: 120px;
-  height: 120px;
+  max-width: 120px;
+  max-height: 120px;
 }
 .header-logo h1{
   color: white;
