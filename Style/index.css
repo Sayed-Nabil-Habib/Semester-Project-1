@@ -358,6 +358,7 @@ nav ul a{
 .closing-nav{
   display: none;
 }
+}
 @media screen and (max-height: 560px) {
   .header-logo img{
     width: 70px;
