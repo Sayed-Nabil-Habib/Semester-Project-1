@@ -250,9 +250,10 @@ footer{
 
 }
 .footer-nav ul{
+  display: flex;
+  flex-direction: column;
   padding-left: 0;
-  display: block;
-  width: 60px;
+  max-width: 100px;
   margin-top: 0;
 }
 .footer-nav ul a{
