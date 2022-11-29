@@ -140,7 +140,7 @@ margin: auto;
   background-color: #E76F51;
   color: white;
   max-width: 450px;
-  max-height: 450px;
+  max-height: 750px;
   font-weight: 300;
   
 }
@@ -151,7 +151,7 @@ margin: auto;
   background-color: #2A9D8F;
   color: white;
   max-width: 450px;
-  max-height: 450px;
+  max-height: 750px;
   font-weight: 300;
 }
 .card-container3{
@@ -161,9 +161,9 @@ margin: auto;
   background-color: #F4A261;
   color: white;
   max-width: 450px;
-  max-height: 450px;
+  max-height: 750px;
   font-weight: 300;
-  height: 100%;
+
 
 }
 
