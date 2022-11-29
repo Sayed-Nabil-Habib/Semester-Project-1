@@ -234,6 +234,29 @@ margin:10px 10px;
   width: 85px;
 }
 
+.working-hours{
+  max-width: 800px;
+  
+  margin: auto;
+}
+.working-hours-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+  margin: auto;
+  padding: 0px 20px;
+}
+.working-hours-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.working-hours-line{
+  border: 1px solid black;
+}
+
+
 /*Footer
 ********************
 ********************
@@ -241,6 +264,7 @@ margin:10px 10px;
 ******************** */
 footer{
   background-color: #4F595C;
+  margin-top: 20px;
 }
 .footer-container{
   display: flex;
