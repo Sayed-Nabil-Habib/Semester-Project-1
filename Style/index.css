@@ -339,8 +339,24 @@ footer{
     justify-content: flex-start;
     margin-left: 50px;
   }
+  .hamburger-icon{
+    display: none;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 800px;
+    background: none;
+    margin: auto;
 
-  
+}
+nav ul a{
+  display: inline;
+  margin: 10px;
+}
+.closing-nav{
+  display: none;
 }
 @media screen and (max-height: 560px) {
   .header-logo img{
