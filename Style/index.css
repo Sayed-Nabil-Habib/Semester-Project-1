@@ -2,7 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  padding-bottom: 100px;
+  
 }
 :root{
   background-color: white;
@@ -116,6 +116,9 @@ justify-content:flex-start;
 margin: 20px;
 font-size: 20px;
 font-weight: 500;
+max-width: 800px;
+  margin: auto;
+  padding-bottom: 10px;
 }
 /*cards design-start-here*/
 .cards{
@@ -157,6 +160,7 @@ font-weight: 500;
   max-width: 450px;
   max-height: 450px;
   font-weight: 300;
+  height: 100%;
 
 }
 
@@ -192,9 +196,6 @@ font-weight: 500;
 }
 .card-items{
 margin:10px 10px;
-
-
-  
 }
 .card-title, .card-more{
   color: black;
@@ -204,7 +205,7 @@ margin:10px 10px;
   line-height: 2;
 }
 
-/*Evisit-us
+/*visit-us
 ********************
 ********************
 ********************
@@ -215,6 +216,9 @@ margin:10px 10px;
   align-items: left;
   margin-left:20px;
   line-height: 2;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px 20px;
 }
 .Visit-title p{
   font-family: 200;
@@ -235,7 +239,6 @@ margin:10px 10px;
 ******************** */
 footer{
   background-color: #4F595C;
-  
 }
 .footer-container{
   display: flex;
@@ -243,36 +246,38 @@ footer{
   justify-content:space-between;
   padding:40px 40px;
   max-width: 800px;
-  
   margin: auto;
-  
-  
 }
 .left-side{
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .footer-logo img{
   width: 70px;
   height: 70px;
+  padding: 0;
 }
 .footer-logo p{
   max-width: 100px;
   font-weight: 600;
+  padding: 0;
+  margin-top: 0;
+
 }
 .footer-nav ul{
   padding-left: 0;
   display: block;
   width: 60px;
-  line-height: 3;
- 
+  margin-top: 0;
 }
 .footer-nav ul a{
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0); 
+  line-height: 3;
 }
 .footer-contact{
-  color: black
-  margin-top: 50px;
+  color: black;
   line-height: 2;
 }
 .footer-contact-title{
@@ -284,7 +289,7 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
+ 
 }
 .social-media-logos{
   display: flex;
@@ -303,4 +308,34 @@ footer{
 }
 .underline{
   text-decoration: underline;
+}
+
+
+/*@Media
+********************
+********************
+********************
+******************** */
+
+@media screen and (min-width: 800px) {
+  .footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start
+  }
+  .footer-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    
+  }
+  .right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 50px;
+  }
+
+  
 }
