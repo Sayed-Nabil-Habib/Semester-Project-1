@@ -81,7 +81,7 @@ nav ul a:hover{
 }
 /*header style here*/
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/first-page-header.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/images/studio-louter-nemo-science-museum-world-of-shapes-interactive-screen_2_55_1_80.jpeg);
   background-color: #49c3ab;
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,6 +94,7 @@ header{
   top: 20%;
   left:5%;
   position: absolute;
+
 }
 .header-logo img{
   max-width: 120px;
@@ -104,6 +105,7 @@ header{
   color: var(--background-color-white);
   max-width: 200px;
   font-weight: 200;
+  
   
 }
 .big-screen-text{
@@ -143,7 +145,6 @@ margin: auto;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  
 }
 
 .card-container1{
@@ -194,7 +195,7 @@ margin: auto;
   opacity: 0.8;
 }
 .card-visit-us{
-  max-width: 1250px;
+  max-width: 650px;
   max-height: 900px;
   width: 100%;
   height: 100%;
@@ -217,11 +218,7 @@ margin: auto;
 }
 .cards-details-visit-us:hover{
   background-color: rgb(167, 167, 167);
- 
 }
-
-
-
 .card-img1{
  max-width: 650px;
  height: 300px;
@@ -246,7 +243,7 @@ margin: auto;
   background-position: top; 
  }
  .card-img4{
-  max-width: 1250px;
+  max-width: 650px;
   height: 400px;
   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/images/visit-us.jpg);
   background-repeat: no-repeat;
@@ -301,7 +298,7 @@ margin:20px 15px;
 ********************
 ******************** */
 footer{
-  background-color: #4F595C;
+  background-color: #231f20;
 }
 .footer-container{
   display: flex;
@@ -310,6 +307,7 @@ footer{
   padding:40px 40px;
   max-width: 800px;
   margin: auto;
+  color: white;
 }
 .left-side{
   display: flex;
@@ -337,11 +335,11 @@ footer{
 }
 .footer-nav ul a{
   text-decoration: none;
-  color: rgb(0, 0, 0); 
+  color: rgb(255, 255, 255); 
   line-height: 3;
 }
 .footer-contact{
-  color: black;
+  color: rgb(255, 255, 255);
   line-height: 2;
 }
 .footer-contact-title{
@@ -353,6 +351,7 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: white;
  
 }
 .social-media-logos{
@@ -365,6 +364,7 @@ footer{
  width: 30px;
  height: 30px;
  margin: 5px;
+ background-color: white;
 }
 .right-side-text{
  width: 140px;
@@ -437,10 +437,11 @@ nav ul a{
   padding: 20px;
 }
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/first-page-header.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/images/studio-louter-nemo-science-museum-world-of-shapes-interactive-screen_2_55_1_80.jpeg);
   background-color: #49c3ab;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 80vh;
   width: 100%;
 }
