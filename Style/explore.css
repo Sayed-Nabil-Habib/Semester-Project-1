@@ -99,7 +99,7 @@ header{
 .header-logo{
   display: flex;
   flex-direction: column;
-  top: 20%;
+  top: 15%;
   left:5%;
   position: absolute;
 
