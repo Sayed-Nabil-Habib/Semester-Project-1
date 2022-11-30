@@ -62,7 +62,8 @@ nav ul a:hover{
   color: var(--background-color-white);
   float: right;
   margin: 50px;
-  background-color: rgb(91, 91, 91);
+  background-color: rgb(36, 36, 36);
+  opacity: 0.9;
   width: 50px;
   height: 50px;
 }
