@@ -90,11 +90,11 @@ nav ul a:hover{
 }
 /*header style here*/
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/images/studio-louter-nemo-science-museum-world-of-shapes-interactive-screen_2_55_1_80.jpeg);
-  background-color: #49c3ab;
+  
+  background-color: #4361ee;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 55vh;
   width: 100%;
 }
 .header-logo{
@@ -400,12 +400,12 @@ nav ul a{
   padding: 20px;
 }
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/images/studio-louter-nemo-science-museum-world-of-shapes-interactive-screen_2_55_1_80.jpeg);
-  background-color: #49c3ab;
+  
+  background-color: #4361ee;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 55vh;
   width: 100%;
 }
 .section-title{
