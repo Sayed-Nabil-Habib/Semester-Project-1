@@ -55,7 +55,9 @@ nav ul a:hover{
 #menu-checkbox{
   display: none;
 }
-
+#menu-checkbox2{
+  display: none;
+}
 .hamburger-icon{
   display: flex;
   flex-direction: row;
