@@ -237,6 +237,9 @@ margin:20px 15px;
   font-weight: 300;
   font-size: 20px;
 }
+.white-title{
+  color: white;
+}
 .cards-title, .cards-text, .cards-line{
   padding: 0px 10px;
 }
