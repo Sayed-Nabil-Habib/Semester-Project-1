@@ -29,7 +29,9 @@ nav:hover{
 nav ul{
   padding-top: 50px;
 }
-
+nav ul li{
+  list-style: none;
+}
 nav ul a{
  text-decoration: none;
  color:white;
@@ -53,7 +55,9 @@ nav ul a:hover{
 #menu-checkbox{
   display: none;
 }
-
+#menu-checkbox2{
+  display: none;
+}
 .hamburger-icon{
   display: flex;
   flex-direction: row;
@@ -73,13 +77,19 @@ nav ul a:hover{
 }
 .ul-col{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   color: var(--background-color-white);
 }
+.col-men{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
 .closing-nav{
   margin-right: 40px;
-  margin-top: 10px;
+  margin-top: 80px;
   z-index: 100;
 }
 .closing-nav:hover{
@@ -301,6 +311,9 @@ footer{
   color: rgb(255, 255, 255); 
   line-height: 3;
 }
+.footer-nav ul li{
+  list-style: none;
+}
 .footer-contact{
   color: rgb(255, 255, 255);
   line-height: 2;
@@ -384,6 +397,12 @@ nav ul a{
 }
 .closing-nav{
   display: none;
+}
+.ul-col{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--background-color-white);
 }
 .main-top-text-container{
   display: none;
