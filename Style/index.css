@@ -373,6 +373,7 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-end;
   color: white;
  
 }
@@ -380,6 +381,7 @@ footer{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  flex-wrap: wrap;
 
 }
 .social-media-logos img{
@@ -391,6 +393,7 @@ footer{
 }
 .right-side-text{
  width: 140px;
+ margin-left: 10px;
  
 }
 .underline{
