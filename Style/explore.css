@@ -90,7 +90,8 @@ nav ul a:hover{
 }
 /*header style here*/
 header{
-  background-color: #49c3ab;
+  
+  background-color: #003049;
   background-repeat: no-repeat;
   background-size: cover;
   height: 55vh;
@@ -406,7 +407,7 @@ nav ul a{
 }
 header{
   
-  background-color: #49c3ab;
+  background-color: #003049;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
