@@ -85,7 +85,7 @@ nav ul a:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  c
+  
 }
 .closing-nav{
   margin-right: 40px;
@@ -434,7 +434,6 @@ footer{
     max-width: 800px;
     background: none;
     margin: auto;
-
 }
 
 nav ul a{
