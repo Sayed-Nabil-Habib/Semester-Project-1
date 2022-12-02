@@ -73,13 +73,19 @@ nav ul a:hover{
 }
 .ul-col{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   color: var(--background-color-white);
 }
+.col-men{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  c
+}
 .closing-nav{
   margin-right: 40px;
-  margin-top: 10px;
+  margin-top: 80px;
   z-index: 100;
 }
 .closing-nav:hover{
@@ -431,6 +437,12 @@ nav ul a{
 }
 .closing-nav{
   display: none;
+}
+.ul-col{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--background-color-white);
 }
 .main-top-text-container{
   display: none;
