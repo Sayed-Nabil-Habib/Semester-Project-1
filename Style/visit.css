@@ -203,7 +203,7 @@ margin: auto;
 .card-img1{
  max-width: 850px;
  height: 300px;
- background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/card-1-main-page.jpg);
+ background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/admission.jpeg);
  background-repeat: no-repeat;
  background-size: cover;
  
@@ -211,14 +211,14 @@ margin: auto;
 .card-img2{
   max-width: 850px;
   height: 300px;
-  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/card-2-main-page.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/food-and-drink.jpg);
   background-repeat: no-repeat;
   background-size: cover;
  }
  .card-img3{
   max-width: 850px;
   height: 300px;
-  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/card-3-main-page.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/accessibility.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top; 

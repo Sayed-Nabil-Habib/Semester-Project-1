@@ -209,7 +209,7 @@ margin: auto;
 .card-img1{
  max-width: 850px;
  height: 300px;
- background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/card-1-main-page.jpg);
+ background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/kids1_88.jpeg);
  background-repeat: no-repeat;
  background-size: cover;
  
@@ -217,7 +217,7 @@ margin: auto;
 .card-img2{
   max-width: 850px;
   height: 300px;
-  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/card-2-main-page.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/teachers1_1_71.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
  }
