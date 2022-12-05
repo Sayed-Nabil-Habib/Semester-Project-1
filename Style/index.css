@@ -100,7 +100,7 @@ nav ul a:hover{
 }
 /*header style here*/
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/images/sem.jpg__1920x0_q85_crop_83.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(/images/sem.jpg__1920x0_q85_crop_83.jpg);
   background-color: #49c3ab;
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,7 +123,7 @@ header{
 .header-logo h1{
   color: var(--background-color-white);
   max-width: 200px;
-  font-weight: 200;
+  font-weight:200;
   
   
 }
@@ -469,7 +469,7 @@ nav ul a{
   padding: 20px;
 }
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/images/sem.jpg__1920x0_q85_crop_83.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(/images/sem.jpg__1920x0_q85_crop_83.jpg);
   background-color: #49c3ab;
   background-repeat: no-repeat;
   background-size: cover;
