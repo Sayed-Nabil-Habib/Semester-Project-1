@@ -482,7 +482,7 @@ header{
 @media screen and (max-height: 560px) {
   
   nav{
-    top: 25%;
+    top: 35%;
   }
   .header-logo img{
     width: 70px;

@@ -56,7 +56,7 @@ nav{
   background-color: var(--background-color-nav);
   height: 100vh;
   width: 100%;
-  top: 15%;
+  top: 25%;
   left: 0px;
   z-index: 90;
   position: relative;
@@ -435,7 +435,7 @@ header{
 }
 @media screen and (max-height: 560px) {
   nav{
-    top: 25%;
+    top: 35%;
   }
   .header-logo img{
     width: 70px;
