@@ -417,9 +417,7 @@ footer{
     justify-content: flex-start;
     margin-left: 50px;
   }
-  .hamburger-icon{
-    display: none;
-  }
+  
   nav{
     display: flex;
     flex-direction: row;
@@ -434,7 +432,9 @@ nav ul a{
   margin: 5px;
   padding-right: 20px;
 }
-
+.container{
+  display: none;
+}
 .ul-col{
   display: flex;
   flex-direction: row;
