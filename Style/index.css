@@ -63,14 +63,14 @@ nav{
   padding-bottom: 20px;
   padding-top: 10px;
  }
-nav ul a{
+nav ul li a {
  text-decoration: none;
- list-style: none;
  line-height: 3;
  color: white;
 }
-nav ul a li{
+nav ul li {
   font-size: 20px;
+  list-style: none;
 }
 nav:hover{
   cursor: pointer;
