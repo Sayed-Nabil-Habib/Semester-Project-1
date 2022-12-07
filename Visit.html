@@ -19,30 +19,26 @@
 <body>
   <!--header-start-here-->
   <header>
-    <input type="checkbox" id="menu-checkbox">
-    <label class="hamburger-icon" for="menu-checkbox"><i class="fas fa-bars fa-2xl"></i></label>
-  
-    <nav>
-      <div class="col-men">
-
-      <ul class="ul-col">
-        
-          <li><a href="index.html">Home</a></li>
-          <li><a href="explore.html">Explore</a></li>
-          <li><a href="Exibition.html">Exibition</a></li>
-          <li><a href="Events.html">Events</a></li>
-          <li><a href="Get-involved.html">Get involved</a></li>
-          <li><a class="current" href="Visit.html">Visit</a></li>
-        
-        </ul>
-
-        <div class="closing-nav">
-          <input type="checkbox" id="menu-checkbox2">
-          <label for="menu-checkbox"><i class="fa-solid fa-xmark fa-2xl"></i></label>
-         </div>
-     
+    <input type="checkbox" id="checkBox">
+    <label for="checkBox">
+      <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
     </div>
-    </nav>
+  </label>
+ 
+  <nav>
+    <ul class="ul-col">
+      <a href="index.html"><li>Home</li></a>
+      <a href="explore.html"><li>Explore</li></a>
+      <a href="Exibition.html"><li>Exibition</li></a>
+      <a href="Events.html"><li>Events</li></a>
+      <a href="Get-involved.html"><li>Get involved</li></a>
+      <a class="current" href="Visit.html"><li>Visit</li></a>
+    </ul>
+  </nav>
+
     <div class="header-logo">
       <img src="/images/logo.jpg" alt="logo-photo">
       <h1>Community Science Museum</h1>
@@ -213,5 +209,6 @@
 </div>
 </footer>
 </div>
+<script src="javaScript.js"></script>
 </body>
 </html>

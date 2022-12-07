@@ -11,92 +11,80 @@ body {
 }
 
 /*navigation style start here*/
-nav{
- display: none; 
- background-color: var(--background-color-nav);
- height: 100vh;
- width: 100%;
- left: 0px;
- z-index: 100;
- position: relative;
- padding-bottom: 20px;
+.container {
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+  margin: 20px 20px;
+  background-color: rgb(198, 198, 198);
+  padding: 5px;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+ 
+  
 }
 
+/* Rotate first bar */
+.change .bar1 {
+  transform: translate(0px, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .bar2 {opacity: 0;}
+
+/* Rotate last bar */
+.change .bar3 {
+  transform: translate(0, -11px) rotate(230deg);
+}
+#checkBox{
+  display: none;
+  
+}
+
+#checkBox:checked ~ nav{
+  display: block;
+ 
+  
+}
+nav{
+  display: none; 
+  background-color: var(--background-color-nav);
+  height: 100vh;
+  width: 100%;
+  top: 15%;
+  left: 0px;
+  z-index: 90;
+  position: relative;
+  padding-bottom: 20px;
+  padding-top: 10px;
+ }
+nav ul a{
+ text-decoration: none;
+ list-style: none;
+ line-height: 3;
+ color: white;
+}
+nav ul a li{
+  font-size: 20px;
+}
 nav:hover{
   cursor: pointer;
 }
-
 nav ul{
   padding-top: 50px;
 }
-nav ul li{
-  list-style: none;
-}
-nav ul a{
- text-decoration: none;
- color:white;
- display: block;
- line-height: 3;
- font-weight: 300;
- font-size: 20px;
- padding: 0px;
-}
-
 nav ul a:hover{
-  text-decoration: underline;
-}
-/*Hamburger-menu*/
-#menu-checkbox:checked ~ nav{
-  display: block;
-}
-#menu-checkbox:checked ~ .hamburger-icon{
-  display: none;
-}
-#menu-checkbox{
-  display: none;
-}
-#menu-checkbox2{
-  display: none;
-}
-.hamburger-icon{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  color: var(--background-color-white);
-  float: right;
-  margin: 50px;
-  background-color: rgb(36, 36, 36);
-  opacity: 0.9;
-  width: 50px;
-  height: 50px;
-}
-.hamburger-icon:hover{
-  color: rgb(43, 196, 43);
-  background-color: rgb(80, 80, 80);
-}
-.ul-col{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  color: var(--background-color-white);
-}
-.col-men{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  
-}
-.closing-nav{
-  margin-right: 40px;
-  margin-top: 80px;
-  z-index: 100;
-}
-.closing-nav:hover{
-  color: rgb(141, 48, 48);
+  transition: all 0.4s;
+  color: rgb(165, 247, 0);
 }
 .current{
   text-decoration: underline;
+  
 }
 /*header style here*/
 header{
@@ -384,22 +372,31 @@ footer{
   .hamburger-icon{
     display: none;
   }
-  nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    max-width: 800px;
-    background: none;
-    margin: auto;
+   
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 800px;
+  top: 0%;
+  background: none;
+  margin: auto;
+}
 
-}
 nav ul a{
-  display: inline;
-  margin: 5px;
-  padding-right: 20px;
+display: inline;
+margin: 5px;
+padding-right: 20px;
+top: 10%;
 }
-.closing-nav{
-  display: none;
+nav ul a li{
+font-size: 20px;
+}
+nav ul{
+padding-top: 0px;
+}
+.container{
+display: none;
 }
 .ul-col{
   display: flex;
@@ -437,6 +434,9 @@ header{
 }
 }
 @media screen and (max-height: 560px) {
+  nav{
+    top: 25%;
+  }
   .header-logo img{
     width: 70px;
   }

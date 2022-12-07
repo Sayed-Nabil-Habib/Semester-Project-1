@@ -416,7 +416,7 @@ footer{
     margin-left: 50px;
   }
   
-  nav{
+nav{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -483,7 +483,8 @@ header{
   
   nav{
     top: 25%;
-  }.header-logo img{
+  }
+  .header-logo img{
     width: 70px;
   }
   .header-logo h1{
