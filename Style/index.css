@@ -58,9 +58,8 @@ nav ul a:hover{
 #menu-checkbox2{
   display: none;
 }
-.label-tag{
-  display: none;
-}
+
+
 .hamburger-icon{
   display: flex;
   flex-direction: row;
@@ -72,6 +71,7 @@ nav ul a:hover{
   background-color: rgb(36, 36, 36);
   opacity: 0.9;
   width: 50px;
+  z-index: 1;
   height: 50px;
 }
 .hamburger-icon:hover{
