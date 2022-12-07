@@ -397,7 +397,9 @@ nav ul a{
   display: inline;
   margin: 5px;
   padding-right: 20px;
+
 }
+
 .closing-nav{
   display: none;
 }
