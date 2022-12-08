@@ -4,61 +4,41 @@ body {
   padding: 0;
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
+html{
+  scroll-behavior: smooth;
+}
 :root{
   --background-color-white: white;
   --background-color-nav: #264653;
   --text-color-black:black;
+  --background-color-hamburger:rgb(198, 198, 198);
+  --cursor:pointer;
+  --full-screen-height:100vh;
 }
 
 /*navigation style start here*/
 .container {
   display: inline-block;
-  cursor: pointer;
+  cursor: var(--cursor);
   float: right;
   margin: 20px 20px;
-  background-color: rgb(198, 198, 198);
-  padding: 5px;
-}
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
- 
-  
-}
-
-/* Rotate first bar */
-.change .bar1 {
-  transform: translate(0px, 11px) rotate(-45deg);
-}
-
-/* Fade out the second bar */
-.change .bar2 {opacity: 0;}
-
-/* Rotate last bar */
-.change .bar3 {
-  transform: translate(0, -11px) rotate(230deg);
+  background-color: var(--background-color-hamburger);
+  padding: 10px;
 }
 #checkBox{
   display: none;
-  
 }
-
 #checkBox:checked ~ nav{
   display: block;
- 
-  
 }
 nav{
   display: none; 
   background-color: var(--background-color-nav);
-  height: 100vh;
+  height: var(--full-screen-height);
   width: 100%;
   top: 20%;
   left: 0px;
-  z-index: 90;
+  z-index: 1;
   position: relative;
   padding-bottom: 20px;
   padding-top: 10px;
@@ -73,7 +53,7 @@ nav{
    list-style: none;
  }
 nav:hover{
-  cursor: pointer;
+  cursor: var(--cursor);
 }
 nav ul{
   padding-top: 50px;
@@ -81,6 +61,7 @@ nav ul{
 nav ul a:hover{
   transition: all 0.4s;
   color: rgb(165, 247, 0);
+  cursor: var(--cursor);
 }
 .current{
   text-decoration: underline;
@@ -88,7 +69,6 @@ nav ul a:hover{
 }
 /*header style here*/
 header{
-  
   background-color: #c77dff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,13 +91,13 @@ header{
 .header-logo h1{
   color: var(--background-color-white);
   max-width: 200px;
-  font-weight: 200;
-  
-  
+  font-weight: 200; 
 }
 .big-screen-text{
   display: none;
 }
+
+
 /*main-style-start-here*/
 .main-top-text{
   display: flex;
@@ -209,9 +189,6 @@ margin: auto;
   background-size: cover;
   background-position: top; 
  }
- 
- 
- 
 .cards-line{
   margin-left: 20px;
   width: 25%;
@@ -250,8 +227,8 @@ margin:20px 15px;
 }
 .cards-details:hover{
   background-color: rgb(48, 49, 49);
- 
 }
+
 
 /*Footer
 ********************
@@ -420,10 +397,6 @@ display: none;
   padding: 20px;
 }
 header{
-  
-  background-color: #8c17e6;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
   height: 55vh;
   width: 100%;
@@ -433,6 +406,7 @@ header{
   font-weight: 400;
 }
 }
+
 @media screen and (max-height: 560px) {
   nav{
     top: 35%;

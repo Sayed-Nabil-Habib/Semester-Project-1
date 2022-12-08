@@ -11,37 +11,31 @@ html{
   --background-color-white: white;
   --background-color-nav: #264653;
   --text-color-black:black;
+  --background-color-hamburger:rgb(198, 198, 198);
+  --cursor:pointer;
+  --full-screen-height:100vh;
+ 
 }
 
 /*navigation style start here*/
 .container {
   display: inline-block;
-  cursor: pointer;
+  cursor: var(--cursor);
   float: right;
   margin: 20px 20px;
-  background-color: rgb(198, 198, 198);
+  background-color: var(--background-color-hamburger);
   padding: 10px;
 }
-
-
-
-
-
 #checkBox{
-  display: none;
-  
+  display: none; 
 }
-
 #checkBox:checked ~ nav{
   display: block;
-  
- 
-  
 }
 nav{
   display: none; 
   background-color: var(--background-color-nav);
-  height: 100vh;
+  height: var(--full-screen-height);
   width: 100%;
   top: 15%;
   left: 0px;
@@ -49,15 +43,11 @@ nav{
   position: relative;
   padding-bottom: 20px;
   padding-top: 10px;
- 
-  
-  
  }
 nav ul li a {
  text-decoration: none;
  line-height: 3;
  color: white;
- transition: all 1s ease;
 }
 nav ul li {
   font-size: 20px;
@@ -65,7 +55,7 @@ nav ul li {
 
 }
 nav:hover{
-  cursor: pointer;
+  cursor: var(--cursor);
 }
 nav ul{
   padding-top: 50px;
@@ -76,8 +66,8 @@ nav ul a:hover{
 }
 .current{
   text-decoration: underline;
-  
 }
+
 /*header style here*/
 header{
   background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(/images/sem.jpg__1920x0_q85_crop_83.jpg);
@@ -110,6 +100,7 @@ header{
 .big-screen-text{
   display: none;
 }
+
 /*main-style-start-here*/
 .main-top-text{
   display: flex;
@@ -288,7 +279,6 @@ margin:20px 15px;
 }
 .cards-details:hover{
   background-color: rgb(48, 49, 49);
- 
 }
 
 /*Footer
@@ -308,6 +298,7 @@ footer{
   margin: auto;
   color: white;
 }
+
 .left-side{
   display: flex;
   flex-direction: row;
@@ -417,7 +408,6 @@ nav{
     background: none;
     margin: auto;
 }
-
 nav ul a{
   display: inline;
   margin: 5px;
@@ -455,10 +445,6 @@ nav ul{
   padding: 20px;
 }
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)),url(/images/sem.jpg__1920x0_q85_crop_83.jpg);
-  background-color: #49c3ab;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
   height: 80vh;
   width: 100%;
@@ -471,6 +457,8 @@ header{
   max-width: 450px;
 }
 }
+
+
 @media screen and (max-height: 560px) {
   
   nav{
