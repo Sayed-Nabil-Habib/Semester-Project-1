@@ -93,9 +93,7 @@ header{
 .header-logo h1{
   color: var(--background-color-white);
   max-width: 200px;
-  font-weight:200;
-  
-  
+  font-weight:200; 
 }
 .big-screen-text{
   display: none;
@@ -469,6 +467,9 @@ header{
     width: 70px;
   }
   .header-logo h1{
+    color: var(--background-color-white);
+    max-width: 100px;
+    font-weight:200; 
     font-size: 20px;
   }
   .big-screen-text{
