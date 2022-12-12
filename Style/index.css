@@ -460,7 +460,7 @@ header{
 }
 
 
-@media screen and (max-height: 560px) {
+@media screen and (max-height: 700px) {
   
   nav{
     top: 0%;
