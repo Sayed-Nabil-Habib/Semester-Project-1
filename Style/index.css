@@ -404,7 +404,7 @@ nav{
     flex-direction: row;
     justify-content: flex-end;
     max-width: 800px;
-    top: 0%;
+    top: 5%;
     background: none;
     margin: auto;
 }
@@ -445,6 +445,7 @@ nav ul{
   padding: 20px;
 }
 header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(/images/sem.jpg__1920x0_q85_crop_83.jpg);
   background-position: center;
   height: 80vh;
   width: 100%;
@@ -462,7 +463,7 @@ header{
 @media screen and (max-height: 560px) {
   
   nav{
-    top: 35%;
+    top: 0%;
   }
   .header-logo img{
     width: 70px;
