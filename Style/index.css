@@ -445,7 +445,7 @@ nav ul{
   padding: 20px;
 }
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)),url(/images/sem.jpg__1920x0_q85_crop_83.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0)),url(/images/sem.jpg__1920x0_q85_crop_83.jpg);
   background-position: center;
   height: 80vh;
   width: 100%;
