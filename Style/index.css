@@ -28,7 +28,7 @@ html{
   
 }
 
-#checkBox, .burger-menu-label{
+#checkBox, .hidden{
   display: none; 
 }
 #checkBox:checked ~ nav{
