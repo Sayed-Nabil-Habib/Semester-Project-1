@@ -144,7 +144,7 @@ margin: auto;
   background-color: #ffc9c2;
   color: var(--text-color-black);
   max-width: 650px;
-  max-height: 650px;
+  max-height: 750px;
   font-weight: 300;
 }
 .card-container2{
@@ -154,7 +154,7 @@ margin: auto;
   background-color: #edebe9;
   color: var(--text-color-black);
   max-width: 650px;
-  max-height: 650px;
+  max-height: 750px;
   font-weight: 300;
 }
 .card-container3{
@@ -164,7 +164,7 @@ margin: auto;
   background-color: rgb(212, 240, 228);
   color: var(--text-color-black);
   max-width: 650px;
-  max-height: 650px;
+  max-height: 750px;
   font-weight: 300;
   height: 100%;
 }
