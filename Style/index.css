@@ -433,8 +433,8 @@ nav ul{
   display: none;
 }
 .big-screen-text{
-  font-weight: 300;
-  font-size: 25px;
+  font-weight: 200;
+  font-size: 70%;
   display: block;
   background-color: rgba(204, 232, 237, 1);
   opacity:0.9;

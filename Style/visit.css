@@ -391,8 +391,8 @@ display: none;
   display: none;
 }
 .big-screen-text{
-  font-weight: 300;
-  font-size: 25px;
+  font-weight: 100;
+  font-size: 80%;
   display: block;
   background-color: rgba(204, 232, 237, 1);
   opacity:0.9;
