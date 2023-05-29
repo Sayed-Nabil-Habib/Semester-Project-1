@@ -21,6 +21,7 @@ A site was made for a local science museum for both parent and children.
 
 ```bash
 git clone https://github.com/Sayed-Nabil-Habib/Semester-Project-1
+```
 
 ### Running
 
@@ -37,3 +38,7 @@ Submit a pull request.
 That's it! I will review your contribution and merge it if it aligns with the goals and style of my travel blog.
 
 If you have any questions or need assistance, feel free to reach out to me. Thank you for your support!
+
+```
+
+```
